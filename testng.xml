@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="classes" thread-count="2" >
+
+    <test name="Regression Test" >
+
+        <classes>
+
+            <class name = "Tests.Framework_DataDrivenTest"/>
+            <class name = "Tests.Window_handling"/>
+
+
+
+        </classes>
+
+
+
+
+
+    </test>
+
+
+
+
+
+
+
+</suite>

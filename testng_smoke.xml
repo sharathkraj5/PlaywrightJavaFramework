@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" parallel="classes" thread-count="2" >
+
+    <test name="Smoke Test" >
+
+        <groups>
+             <run>
+                 <include name="smoke"/>
+
+             </run>
+
+        </groups>
+
+        <classes>
+
+            <class name="Tests.UI_Handling"/>
+
+
+
+        </classes>
+
+
+
+
+
+    </test>
+
+
+
+
+
+
+
+</suite>
